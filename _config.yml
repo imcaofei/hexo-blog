@@ -103,5 +103,4 @@ theme: landscape
 deploy:
   type: 'git'
   repo:
-    github: 'git@github.com:imcaofei/imcaofei.github.io.git'
-  branch: 'main'
+    github: git@github.com:imcaofei/imcaofei.github.io.git,main
