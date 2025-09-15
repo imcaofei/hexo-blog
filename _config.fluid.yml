@@ -9,7 +9,7 @@ description: ''
 keywords:
 author: Fei Cao
 language: zh-CN
-timezone:
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -104,3 +104,31 @@ deploy:
   type: 'git'
   repo:
     github: git@github.com:imcaofei/imcaofei.github.io.git,main
+
+index:
+  slogan:
+    enable: true
+    text: Java | Backend | Distributed Systems
+  post_url_target: _self
+  # 文章跳转方式
+  # 可选值：
+  # _blank：新标签页打开
+  # _self：当前标签页打开
+
+navbar:
+  blog_title: FeiCao.io
+  menu:
+    - { key: 'home', link: '/', icon: 'iconfont icon-home-fill', name: '首页' }
+    - { key: 'archives', link: '/archives/', icon: 'iconfont icon-archive-fill', name: '归档' }
+    - { key: 'tag', link: '/tags/', icon: 'iconfont icon-tags-fill', name: '标签' }
+    - { key: 'about', link: '/about/', icon: 'iconfont icon-user-fill', name: '关于' }
+
+about:
+  avatar: /img/avatar.png
+  name: "Fei Cao"
+  intro: "Java | Backend | Distributed Systems"
+  icons: # 不要把 icon 注释掉，否则无法覆盖配置
+    - { class: 'iconfont icon-github-fill', link: 'https://github.com/imcaofei', tip: 'GitHub' }
+    - { class: 'iconfont icon-wechat-fill', qrcode: '/img/qr-code.jpg', tip: '微信' }
+
+favicon: /img/favicon.ico
