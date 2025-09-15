@@ -106,6 +106,7 @@ deploy:
     github: git@github.com:imcaofei/imcaofei.github.io.git,main
 
 index:
+  banner_img: /img/bg/default.jpeg
   slogan:
     enable: true
     text: Java | Backend | Distributed Systems
@@ -129,6 +130,6 @@ about:
   intro: "Java | Backend | Distributed Systems"
   icons: # 不要把 icon 注释掉，否则无法覆盖配置
     - { class: 'iconfont icon-github-fill', link: 'https://github.com/imcaofei', tip: 'GitHub' }
-    - { class: 'iconfont icon-wechat-fill', qrcode: '/img/qr-code.jpg', tip: '微信' }
+    # - { class: 'iconfont icon-wechat-fill', qrcode: '/img/qr-code.jpg', tip: '微信' }
 
 favicon: /img/favicon.ico
