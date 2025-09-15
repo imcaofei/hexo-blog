@@ -124,7 +124,7 @@ navbar:
     - { key: 'about', link: '/about/', icon: 'iconfont icon-user-fill', name: '关于' }
 
 about:
-  avatar: /img/avatar.png
+  avatar: /img/avatar.jpg
   name: "Fei Cao"
   intro: "Java | Backend | Distributed Systems"
   icons: # 不要把 icon 注释掉，否则无法覆盖配置
