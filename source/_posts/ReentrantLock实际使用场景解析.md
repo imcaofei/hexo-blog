@@ -2,6 +2,10 @@
 title: ReentrantLock实际使用场景解析
 date: 2025-09-15 13:41:28
 tags:
+  - ReentrantLock
+  - 并发控制
+  - 锁优化
+  - 系统架构
 ---
 
 首先，我们快速回顾一下 `ReentrantLock` 的核心优势，这有助于理解为什么会在某些场景下选择它而不是传统的 `synchronized` 关键字：

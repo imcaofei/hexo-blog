@@ -119,7 +119,7 @@ navbar:
   blog_title: FeiCao.io
   menu:
     - { key: 'home', link: '/', icon: 'iconfont icon-home-fill', name: '首页' }
-    - { key: 'archives', link: '/archives/', icon: 'iconfont icon-archive-fill', name: '归档' }
+    - { key: 'archives', link: '/archives/', icon: 'iconfont icon-archive-fill', name: '文章' }
     - { key: 'tag', link: '/tags/', icon: 'iconfont icon-tags-fill', name: '标签' }
     - { key: 'about', link: '/about/', icon: 'iconfont icon-user-fill', name: '关于' }
 
