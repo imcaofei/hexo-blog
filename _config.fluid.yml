@@ -119,10 +119,10 @@ index:
 navbar:
   blog_title: FeiCao.io
   menu:
-    - { key: 'home', link: '/', icon: 'iconfont icon-home-fill', name: '首页' }
-    - { key: 'archive', link: '/archives/', icon: 'iconfont icon-archive-fill', name: '文章' }
-    - { key: 'tag', link: '/tags/', icon: 'iconfont icon-tags-fill', name: '标签' }
-    - { key: 'about', link: '/about/', icon: 'iconfont icon-user-fill', name: '关于' }
+    - { key: 'home', link: '/', icon: 'iconfont icon-home-fill' }
+    - { key: 'archive', link: '/archives/', icon: 'iconfont icon-archive-fill' }
+    - { key: 'tag', link: '/tags/', icon: 'iconfont icon-tags-fill' }
+    - { key: 'about', link: '/about/', icon: 'iconfont icon-user-fill' }
 
 about:
   avatar: /img/avatar.jpg
